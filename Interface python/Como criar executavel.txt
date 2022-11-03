@@ -1,0 +1,12 @@
+Para transformar o arquivo python em um arquivo executavel, basta abrir o terminal no vscode e digitar: pyinstaller --onefilme 'nome no arquivo' (para codigos que nao tem janela) 
+
+ou 
+
+pyinstaller --onefile -w 'nome do arquivo' (para codigos que tem janelas de interface, como esse codigo main.py)
+	ex: pyinstaller --onefilme -w main.py
+	E assim sera criado o arquivo executavel
+
+
+OBS 1: LEMBRANDO QUE TEM QUE TER INSTALADO O PYINSTALLER. Se não estiver instalado, basta ir no terminal e digitar: pip install pyinstaller
+
+OBS 2: De acordo com o Lira do canal Hashtag Programação, é melhor criar o arquivo python e o executavel dentro de um ambiente virtual, segue o link com a explicação do porquê aos 4:18: https://www.youtube.com/watch?v=cGSerUmK0CE
