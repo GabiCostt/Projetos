@@ -3,7 +3,7 @@ from importacoes import *
 destinatario = 'alessandracssudi@hotmail.com'
 assunto = 'E-mail automatico'
 msg ='''
-Olá mamaezinha, este é um email automatico que estou testando,
+Olá, este é um email automatico que estou testando,
 espero que você goste!!!'''
 
 """Uma função que abre automaticamente o navegador google chrome,
